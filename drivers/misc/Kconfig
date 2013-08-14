@@ -255,6 +255,13 @@ config SD8XXX_RFKILL
 	 Creates an rfkill entry in sysfs for power control of Marvell
 	 sd8xxx wlan/bt chips.
 
+config FLS_LCD 
+	tristate "FLS-2800 LCD driver"
+	default y
+	---help---
+	This is a driver for the Coherent-Solutions (CS) FLS-2800
+	LCD front panel display
+
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
 

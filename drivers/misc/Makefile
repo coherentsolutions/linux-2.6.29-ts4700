@@ -33,3 +33,4 @@ obj-$(CONFIG_C2PORT)		+= c2port/
 obj-y				+= eeprom/
 obj-$(CONFIG_WL127X_RFKILL)	+= wl127x-rfkill.o
 obj-$(CONFIG_SD8XXX_RFKILL)	+= sd8x_rfkill.o
+obj-$(CONFIG_FLS_LCD)		+= fls_lcd_ik.o
