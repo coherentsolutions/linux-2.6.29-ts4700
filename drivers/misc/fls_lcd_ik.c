@@ -17,7 +17,7 @@
 #define DEVNODE
 #define LCD_SPLASH_MSG ""
 #else
-#define LCD_SPLASH_MSG "\eJ\n\r WARMING LASERS\n\r (PLEASE  WAIT)\n\r"
+#define LCD_SPLASH_MSG "\eJ\n\r    BOOTING    \n\r (PLEASE  WAIT)\n\r"
 #endif
 
 #define LCD_HW_RESET 1
